@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mysnap-0",
+          "appId": "1:791555468209:android:e3b141ac5b0bc07b53ab90",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mysnap-0",
+          "configurations": {
+            "android": "1:791555468209:android:e3b141ac5b0bc07b53ab90",
+            "ios": "1:791555468209:ios:7f33df9e10394f0653ab90",
+            "web": "1:791555468209:web:70a7b4bfa4d0520653ab90"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

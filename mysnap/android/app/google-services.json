@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791555468209",
+    "project_id": "mysnap-0",
+    "storage_bucket": "mysnap-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791555468209:android:e3b141ac5b0bc07b53ab90",
+        "android_client_info": {
+          "package_name": "com.mysnap.mysnap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcIj-TNJwtYBBYKpSUUGz7nnL6aiHKuRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
